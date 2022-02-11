@@ -1,9 +1,10 @@
 # Project work - Beyond Genome Assembly
 
 Consider the following files:
-1. the [reference genome] of SARS-CoV-2
-2. a [FASTQ sample], compressed with [zstd](https://facebook.github.io/zstd/). Beware that you have to decompress this file with `unzstd`.
-3. a [bash script] that aligns the read in the sample and computes the variant against the reference genome.
+1. the [reference
+   genome](https://github.com/gdv/qomics/raw/main/pipeline/covid19-refseq.fasta) of SARS-CoV-2
+2. a [FASTQ sample](https://github.com/gdv/qomics/raw/main/pipeline/SRR11608258.fastq.fastp.zst), compressed with [zstd](https://facebook.github.io/zstd/). Beware that you have to decompress this file with `unzstd`.
+3. a [bash script](https://github.com/gdv/qomics/raw/main/pipeline/pipeline.sh) that aligns the read in the sample and computes the variant against the reference genome.
 
 You have:
 1. to translate the bash script into a Snakemake file
