@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e 
 
-zstd -d SRR11608258.fastq.fastp.zstd
+zstd -d SRR11608258.fastq.fastp.zst
 
 
 # Index the reference genome
