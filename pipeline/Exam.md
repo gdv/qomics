@@ -11,3 +11,17 @@ You have:
 2. to write a very short report (max half page) on the results shown by the [USCS genome browser](https://genome.ucsc.edu/index.html) on those variants
 
 Extra points if your snakemake can be easily reused on more than one sample.
+
+You need to install the following tools:
+  - samtools
+  - minimap2
+  - freebayes
+  - zstd
+
+If you use conda the commands are:
+```
+conda install -c conda-forge zstd
+conda install -c bioconda minimap2
+conda install -c bioconda freebayes
+conda install -c bioconda samtools
+```
