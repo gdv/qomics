@@ -18,7 +18,7 @@ You need to install the following tools:
   - freebayes
   - zstd
 
-If you use conda the commands are:
+If you use conda, the commands are:
 ```
 conda install -c conda-forge zstd
 conda install -c bioconda minimap2
